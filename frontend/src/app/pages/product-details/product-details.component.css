@@ -1,0 +1,47 @@
+.back-to-result {
+  margin-bottom: 40px;
+}
+.mat-card-image {
+  width: 100%;
+  margin: 0;
+}
+mat-card {
+  max-width: 400px;
+  text-align: center;
+}
+/* styles.css */
+.like-dislike-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Add this to your component's stylesheet */
+
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.like-button,
+.dislike-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.like-button:hover {
+  background-color: blue;
+}
+
+.dislike-button:hover {
+  background-color: red;
+}
